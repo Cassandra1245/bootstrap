@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Bootstrap Project</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <style type="text/css">
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-6, .col-md-8 {
+background-color: #34495e;
+color: white;
+line-height: 5em;
+border: 1px solid white;
+height: 5em;
+}
+</style>
+
+</head>
+<body>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="container-fluid p-5 bg-primary text-white text-center">
+    <h1>My First Bootstrap Page</h1>
+    <p>Resize this responsive page to see the effect!</p> 
+  </div>
+    
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Column 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Column 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Column 3</h3>        
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+        <div class="col-md-1">1</div>
+        <div class="col-md-1">2</div>
+    <div class="col-md-1">3</div>
+    <div class="col-md-1">4</div>
+    <div class="col-md-1">5</div>
+    <div class="col-md-1">6</div>
+    <div class="col-md-1">7</div>
+    <div class="col-md-1">8</div>
+    <div class="col-md-1">9</div>
+    <div class="col-md-1">10</div>
+    <div class="col-md-1">11</div>
+    <div class="col-md-1">12</div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+        <div class="col-md-4">1.1</div>
+        <div class="col-md-4">1.2</div>
+        <div class="col-md-4">1.3</div>
+        </div>
+        <div class="row">
+        <div class="col-md-3">2.1</div>
+        <div class="col-md-3">2.2</div>
+        <div class="col-md-3">2.2</div>
+        <div class="col-md-3">2.3</div>
+        </div >
+        <div class="row">
+        <div class="col-md-6">3.1</div>
+        <div class="col-md-6">3.2</div>
+        </div >
+        <div class="row">
+        <div class="col-md-8">4.1</div>
+        <div class="col-md-4">4.2</div>
+        </div >
+
+        <div class="container">
+            <h1>Medium /Small Device</h1>
+            <p> </p>
+            <p>Resize the browser window to see the effect.</p>
+            <div class="row">
+              <div class="col-sm-3 col-md-6" style="background-color:yellow;color: darkolivegreen; ">
+                Esto es el contenido de la celda 1
+              </div>
+              <div class="col-sm-9 col-md-6" style="background-color:pink; color: #34495e;">
+               Esto es el contenido de la celda 2
+              </div>
+            </div>
+          </div>
+        
+          <div class="container">
+            <div class="row">
+                   <div class="col-md-4">.col-md-4</div >
+                   <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div >
+            </div >
+            <div class="row">
+                   <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3"</div >
+                   <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3"</div >
+            </div >
+            <div class="row">
+                    <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div ></div >
+            </div>
+
+            <div class="container">
+                <h2>Example</h2>
+                <p>Resize this page to see how the text below changes:</p>
+                <h1 class="d-sm-none bg-info">This text is hidden on a SMALL screen.</h1>
+                <h1 class="d-md-none bg-warning">This is text hidden on a MEDIUM screen.</h1>
+                <h1 class="d-lg-none bg-success">This is text hidden on a LARGE screen.</h1>
+                <h1 class="d-xl-none bg-primary">This is text hidden on a  extra LARGE screen.</h1>
+                <h1 class="d-xxl-none bg-info">This is text hidden on a  extra extra  LARGE screen.</h1>
+            </div>
+
+
+      
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h2>Card Image</h2>
+                <p>Image at the top (card-img-top):</p>
+                <div class="card" style="width:400px">
+                  <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0509/9552/7861/files/Equipamiento_gimnasio_accesorios_para_las_diferentes_salas.jpg?v=1653463328" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Máquinas</h4>
+                    <p class="card-text">Una gran variedad de máquinas para ejercitar distintas zonas del cuerpo</p>
+                    <a href="#" class="btn btn-primary">Más</a>
+                  </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h2>Card Image</h2>
+                <p>Image at the top (card-img-top):</p>
+                <div class="card" style="width:400px">
+                  <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0509/9552/7861/files/Equipamiento_gimnasio_accesorios_para_las_diferentes_salas.jpg?v=1653463328" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Máquinas</h4>
+                    <p class="card-text">Una gran variedad de máquinas para ejercitar distintas zonas del cuerpo</p>
+                    <a href="#" class="btn btn-primary">Más</a>
+                  </div>
+                </div>
+                <br>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h2>Card Image</h2>
+                <p>Image at the top (card-img-top):</p>
+                <div class="card" style="width:400px">
+                  <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0509/9552/7861/files/Equipamiento_gimnasio_accesorios_para_las_diferentes_salas.jpg?v=1653463328" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Máquinas</h4>
+                    <p class="card-text">Una gran variedad de máquinas para ejercitar distintas zonas del cuerpo</p>
+                    <a href="#" class="btn btn-primary">Más</a>
+                  </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h2>Card Image</h2>
+                <p>Image at the top (card-img-top):</p>
+                <div class="card" style="width:400px">
+                  <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0509/9552/7861/files/Equipamiento_gimnasio_accesorios_para_las_diferentes_salas.jpg?v=1653463328" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Máquinas</h4>
+                    <p class="card-text">Una gran variedad de máquinas para ejercitar distintas zonas del cuerpo</p>
+                    <a href="#" class="btn btn-primary">Más</a>
+                  </div>
+                </div>
+                <br>
+            </div>
+
+        </div> 
+    </div>          
+              
+                      
+                    
+            
+    
+    </body>
+    </html>
+    
